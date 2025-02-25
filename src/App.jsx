@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../src/pages/home";
+import Home from "../src/pages/Home";
 import FamilyOfBrands from "../src/pages/Brand";
 import About from "../src/pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Branches from "./pages/Branches";
+
 
 
 function App() {
