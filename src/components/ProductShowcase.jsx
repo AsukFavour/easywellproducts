@@ -56,15 +56,15 @@ function ProductShowcase() {
   const [activeCategory, setActiveCategory] = useState('Oils');
 
   return (
-    <section className="py-16 px-6  text-center">
+    <section className="py-16 px-6 text-center">
       <h2 className="text-3xl font-bold mb-6">Our Brands</h2>
       
-      <div className="flex justify-center gap-4 mb-8">
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8">
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full ${
-              activeCategory === category ? 'bg-COSgreen text-white' : 'bg-green-200'
+            className={`px-4 py-2 text-sm sm:text-base rounded-full transition-all ${
+              activeCategory === category ? 'bg-COSgreen text-white' : 'bg-green-200 hover:bg-green-300'
             }`}
             onClick={() => setActiveCategory(category)}
           >
@@ -73,7 +73,7 @@ function ProductShowcase() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {products[activeCategory]?.map((product, index) => (
           <div key={index} className="bg-white p-4 rounded-lg shadow-lg text-center">
             <img src={product.image} alt={product.name} className="w-full h-40 object-contain" />

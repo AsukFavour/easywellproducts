@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-COSgreen bg-opacity-80 p-4 flex items-center justify-between relative ">
       {/* Logo */}
-      <div className="text-white text-2xl font-bold">Easywell</div>
+      <div className="text-white text-2xl font-bold"><a href="/">Easywell</a></div>
 
       {/* Menu Button with Pill Shape */}
       <button 
