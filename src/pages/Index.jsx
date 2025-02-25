@@ -3,15 +3,13 @@ import Navbar from '../components/navbar';
 import HeroSection from '../components/HeroSection';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import pt1 from '../assets/Pictures/pt1.jpg';
-import pt3 from '../assets/Pictures/pt3.jpg';
 import bg from '../assets/Pictures/bg.png';
 import ProductShowcase from '../components/ProductShowcase';
 import Footer from '../components/Footer';
 
 
 
-function Home() {
+function Index() {
   return (
     <>
       <Navbar />
@@ -114,4 +112,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Index;
