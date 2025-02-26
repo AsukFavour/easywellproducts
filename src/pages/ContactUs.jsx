@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -6,12 +7,19 @@ const ContactUs = () => {
   return (
     <><Navbar/>
     <div className="bg-gray-100 ">
-      <div className="bg-green-200 py-12 text-center">
-        <h2 className="text-4xl font-bold text-green-700">Contact Us</h2>
+    <div className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center text-white text-center p-6" 
+        style={{ backgroundImage: "url('https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479087/Easywell/h2qp4rlourlgant6cpln.jpg')" }}>
+        <motion.h1 
+          initial={{ opacity: 0, y: 50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1 }} 
+          className="text-5xl font-bold drop-shadow-lg">
+          Contact Us
+        </motion.h1>
       </div>
 
       {/* Contact Details */}
-      <div className="max-w-4xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div className=" mx-auto  p-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center bg-green-100">
         <div className="flex flex-col items-center">
           <MapPin size={32} className="text-orange-500" />
           <h3 className="font-bold mt-2">Locations</h3>
@@ -34,7 +42,7 @@ const ContactUs = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="max-w-2xl mx-auto mt-12 bg-white p-8 rounded-lg shadow-lg">
+      <div className="max-w-2xl mx-auto mt-12 mb-8 bg-white p-8 rounded-lg shadow-lg">
         <h3 className="text-center text-xl font-semibold mb-6">Get In Touch</h3>
         <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input type="text" placeholder="Name *" className="border p-3 rounded w-full" required />

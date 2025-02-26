@@ -20,7 +20,7 @@ const AboutUs = () => {
       </div>
       
       {/* Sections */}
-      <div className="max-w-6xl mx-auto p-8">
+      <div className="container-fluid max-w-6xl mx-auto p-8">
         {/* Value Proposition */}
         <motion.div className="flex flex-col md:flex-row items-center my-12 gap-8" 
           initial={{ opacity: 0, x: -100 }} 
@@ -90,6 +90,10 @@ const AboutUs = () => {
           <div>
             <h2 className="text-3xl font-semibold">For Exports</h2>
             <p className="mt-4 text-lg">Our products are truly Canadian made, and distributed locally and exported to many countries  including, UK, Germany, South Africa, Ghana, Nigeria, Zambia, Jamaica, Uruguay, Cameroun, Ethiopia, and many more countries.</p>
+
+            <h2 className="text-3xl font-semibold">Bulk Orders</h2>
+            <p className="mt-4 text-lg"> Easywell Inc provides bulk order services on requests. depending on clients specifications. We deliver to the location of your choice.</p>
+            <a href="/bulkorders" className="text-COSgreen"> Link to view our options</a>
           </div>
         </motion.div>
       </div>

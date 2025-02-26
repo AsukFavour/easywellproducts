@@ -28,7 +28,14 @@ function Index() {
             transition={{ duration: 1 }}
             className="w-full md:w-1/2"
           >
-            <img src='https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479078/Easywell/knc25xct0vp5uoug6gvi.jpg' alt="About Us" className="rounded-lg shadow-lg" />
+            <video 
+    src="https://res.cloudinary.com/dqfzpmiiw/video/upload/v1740565359/WhatsApp_Video_2025-02-26_at_11.16.11_5bbee457_gswtxc.mp4" 
+    autoPlay 
+    loop 
+    muted 
+    playsInline
+    className="rounded-lg shadow-lg w-full h-auto"
+  />
           </motion.div>
 
           {/* Text Section */}

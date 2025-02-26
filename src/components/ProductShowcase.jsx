@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import p1 from '../assets/Product/1.png';
-import p2 from '../assets/Product/2.png';
-import p3 from '../assets/Product/3.png';
-import p4 from '../assets/Product/4.png';
-import p5 from '../assets/Product/5.png';
+import { Link } from 'react-router-dom';
+
 
 const categories = [
   'Oils', 'Oats', 'BabyFoods', 'Milk', 'Sugar', 'TomatoPaste'
@@ -18,7 +15,7 @@ const products = {
   ],
 
   Oats: [
-    { name: 'Easywell Oil', image: p5 },
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479146/Easywell/tdgc8b2sqkalbwoyvwg8.png' },
     { name: 'Easywell ', image: '/images/spaghettini.png' },
     { name: 'Easywell', image: '/images/twist.png' },
     { name: 'Easywell', image: '/images/macaroni.png' }
@@ -75,7 +72,7 @@ function ProductShowcase() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {products[activeCategory]?.map((product, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow-lg text-center">
+          <div key={index} className="bg-white p-4 rounded-lg shadow-lg text-center hover:bg-green-100 transition">
             <img src={product.image} alt={product.name} className="w-full h-40 object-contain" />
             <h3 className="mt-4 text-lg font-semibold">{product.name}</h3>
             <button className="mt-4 bg-yellow-400 text-black px-6 py-2 rounded-full shadow-md hover:bg-yellow-500 transition">
@@ -84,6 +81,10 @@ function ProductShowcase() {
           </div>
         ))}
       </div>
+      <div className="my-10">
+      <Link to="/products" className="bg-COSgreen align-middle text-white px-8 py-4 rounded-full shadow-md hover:bg-COSgreen hover:text-black transition">
+              View More
+            </Link></div>
     </section>
   );
 }

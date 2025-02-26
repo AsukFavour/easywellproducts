@@ -4,6 +4,8 @@ import FamilyOfBrands from "../src/pages/Brand";
 import About from "../src/pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Branches from "./pages/Branches";
+import Careers from "./pages/Careers";
+import Products from "./pages/Products";
 
 
 
@@ -16,10 +18,12 @@ function App() {
            <Route path="/about" element={<About />} />
            <Route path="/contact" element={<ContactUs />} />
            <Route path="/branches" element={<Branches />} />
+           <Route path="/career" element={<Careers />} />
+           <Route path="/products" element={<Products />} />
         {/*<Route path="/pulses" element={<Pulses />} />
         
       
-        <Route path="/career" element={<Career />} /> */}
+         */}
       </Routes>
     </Router>
   );

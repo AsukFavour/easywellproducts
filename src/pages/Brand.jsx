@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import pt4 from "../assets/Pictures/pt5.jpg";
 
 const products = [
     {
         name: "Easywell Oil",
-        description: "A nutritious and quick breakfast option, rich in fiber and essential nutrients.",
+        description: "Easy oil comes in various organic sources including fish oil, walnut oil, flaxseed oil, sunflower oil, soybean and corn oils  , olive, canola and peanut oils. And by replacing saturated fats with polyunsaturated fats, people reduce their risk of heart disease.   ",
         image: "https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479137/Easywell/bnzpus9e16mdfus1qhnx.png", 
       },
   {
@@ -53,9 +52,7 @@ const Brand = () => {
     <div className="bg-gray-100 min-h-screen">
       {/* Hero Section with Dark Overlay */}
       <div className="relative h-72 flex items-center justify-center text-white ">
-        <div 
-          className="absolute inset-0 bg-black bg-opacity-60 " // Dark overlay
-        ></div>
+        
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479098/Easywell/kn9pthuaddegsx3n9aux.jpg)` }} 
@@ -67,7 +64,7 @@ const Brand = () => {
       <section className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-lg p-6 text-center">
+            <div key={index} className="bg-white shadow-lg rounded-lg p-6 text-center hover:bg-green-100 transition">
               <img src={product.image} alt={product.name} className="mx-auto h-40" />
               <h3 className="text-xl font-semibold mt-4 text-COSgreen">{product.name}</h3>
               <p className="text-gray-600 mt-2">{product.description}</p>

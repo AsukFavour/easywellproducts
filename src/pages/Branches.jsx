@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -16,9 +17,18 @@ function Branches() {
   return (
     <>
     <Navbar/>
-    <div className="container mx-auto p-6 bg-green-100">
-      <h2 className="text-3xl font-bold text-center mb-6">Our Global Branches</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="container-fluid  bg-green-100">
+    <div className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center text-white text-center p-6" 
+        style={{ backgroundImage: "url('https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479087/Easywell/h2qp4rlourlgant6cpln.jpg')" }}>
+        <motion.h1 
+          initial={{ opacity: 0, y: 50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1 }} 
+          className="text-5xl font-bold drop-shadow-lg">
+          Our Global Branches
+        </motion.h1>
+      </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 mx-auto p-6 gap-6">
         {branches.map((branch, index) => (
           <div key={index} className="p-4 shadow-lg rounded-lg bg-white">
             <h3 className="text-xl font-semibold">{branch.country}</h3>
