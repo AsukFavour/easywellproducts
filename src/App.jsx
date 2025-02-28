@@ -6,6 +6,9 @@ import ContactUs from "./pages/ContactUs";
 import Branches from "./pages/Branches";
 import Careers from "./pages/Careers";
 import Products from "./pages/Products";
+import BulkOrder from "./pages/BulkOrder";
+import CommunitySupport from "./pages/CommunitySupport";
+import Pulses from "./pages/Pulses";
 
 
 
@@ -20,10 +23,12 @@ function App() {
            <Route path="/branches" element={<Branches />} />
            <Route path="/career" element={<Careers />} />
            <Route path="/products" element={<Products />} />
-        {/*<Route path="/pulses" element={<Pulses />} />
+           <Route path="/bulk-order" element={<BulkOrder />} />
+           <Route path="/community-support" element={<CommunitySupport />} />
+          <Route path="/pulses" element={<Pulses />} />
         
       
-         */}
+         
       </Routes>
     </Router>
   );

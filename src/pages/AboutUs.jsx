@@ -93,7 +93,7 @@ const AboutUs = () => {
 
             <h2 className="text-3xl font-semibold">Bulk Orders</h2>
             <p className="mt-4 text-lg"> Easywell Inc provides bulk order services on requests. depending on clients specifications. We deliver to the location of your choice.</p>
-            <a href="/bulkorders" className="text-COSgreen"> Link to view our options</a>
+            <a href="/bulk-order" className="text-COSgreen"> Link to view our options</a>
           </div>
         </motion.div>
       </div>

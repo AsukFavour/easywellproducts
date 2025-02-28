@@ -44,20 +44,23 @@ const ContactUs = () => {
       {/* Contact Form */}
       <div className="max-w-2xl mx-auto mt-12 mb-8 bg-white p-8 rounded-lg shadow-lg">
         <h3 className="text-center text-xl font-semibold mb-6">Get In Touch</h3>
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input type="text" placeholder="Name *" className="border p-3 rounded w-full" required />
-          <input type="email" placeholder="Email *" className="border p-3 rounded w-full" required />
-          <input type="tel" placeholder="Phone Number" className="border p-3 rounded w-full" />
-          <select className="border p-3 rounded w-full">
-            <option>Enquiries</option>
-            <option>Support</option>
-            <option>Feedback</option>
-          </select>
-          <textarea placeholder="Message" className="border p-3 rounded w-full md:col-span-2" rows="4"></textarea>
-          <button className="bg-COSgreen text-white p-3 rounded w-full md:col-span-2 hover:bg-green-700 transition">
-            Submit
-          </button>
-        </form>
+        <form action="https://formsubmit.co/info@easywellproducts.com" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <input type="text" name="name" placeholder="Name *" className="border p-3 rounded w-full" required />
+  <input type="email" name="email" placeholder="Email *" className="border p-3 rounded w-full" required />
+  <input type="tel" name="phone" placeholder="Phone Number" className="border p-3 rounded w-full" />
+  <select name="subject" className="border p-3 rounded w-full">
+     <option>Bulk Orders</option>
+    <option>Enquiries</option>
+    <option>Support</option>
+    <option>Feedback</option>
+  </select>
+  <textarea name="message" placeholder="Message" className="border p-3 rounded w-full md:col-span-2" rows="4" required></textarea>
+  <input type="hidden" name="_captcha" value="false" />
+  <button type="submit" className="bg-COSgreen text-white p-3 rounded w-full md:col-span-2 hover:bg-green-700 transition">
+    Submit
+  </button>
+</form>
+
       </div>
     </div>
     <Footer />
