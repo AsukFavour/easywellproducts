@@ -17,52 +17,46 @@ const products = {
     { name: 'Easywell Palm Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479135/Easywell/fg2gpvwlz07rif7kbm1u.png' }
   ],
   Oats: [
-    { name: 'Easywell Instant Oats', image: '/images/oat1.png' },
-    { name: 'Easywell Rolled Oats', image: '/images/oat2.png' },
-    { name: 'Easywell Steel-cut Oats', image: '/images/oat3.png' },
-    { name: 'Easywell Quick Oats', image: '/images/oat4.png' },
-    { name: 'Easywell Gluten-Free Oats', image: '/images/oat5.png' },
-    { name: 'Easywell Organic Oats', image: '/images/oat6.png' }
+    { name: 'Easywell Instant Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Rolled Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Steel-cut Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Quick Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Gluten-Free Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Organic Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
   Sugars: [
-    { name: 'Easywell White Sugar', image: '/images/sugar1.png' },
-    { name: 'Easywell Brown Sugar', image: '/images/sugar2.png' },
-    { name: 'Easywell Cane Sugar', image: '/images/sugar3.png' },
-    { name: 'Easywell Powdered Sugar', image: '/images/sugar4.png' },
-    { name: 'Easywell Coconut Sugar', image: '/images/sugar5.png' },
-    { name: 'Easywell Organic Sugar', image: '/images/sugar6.png' }
+    { name: 'Easywell White Sugar', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Brown Sugar', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Cane Sugar', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+   
   ],
   'Organic Products': [
-    { name: 'Easywell Organic Honey', image: '/images/organic1.png' },
-    { name: 'Easywell Organic Tea', image: '/images/organic2.png' },
-    { name: 'Easywell Organic Spices', image: '/images/organic3.png' },
-    { name: 'Easywell Organic Flour', image: '/images/organic4.png' },
-    { name: 'Easywell Organic Nuts', image: '/images/organic5.png' },
-    { name: 'Easywell Organic Seeds', image: '/images/organic6.png' }
+    { name: 'Easywell Organic Honey', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Organic Tea', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Organic Spices', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Organic Flour', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+
   ],
   'Baby Foods': [
-    { name: 'Easywell Baby Cereal', image: '/images/baby1.png' },
-    { name: 'Easywell Baby Puree', image: '/images/baby2.png' },
-    { name: 'Easywell Baby Formula', image: '/images/baby3.png' },
-    { name: 'Easywell Baby Snacks', image: '/images/baby4.png' },
-    { name: 'Easywell Baby Porridge', image: '/images/baby5.png' },
-    { name: 'Easywell Baby Biscuits', image: '/images/baby6.png' }
+    { name: 'Easywell Baby Cereal', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Baby Puree', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Baby Formula', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Baby Snacks', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+
   ],
   Milks: [
-    { name: 'Easywell Whole Milk', image: '/images/milk1.png' },
-    { name: 'Easywell Skim Milk', image: '/images/milk2.png' },
-    { name: 'Easywell Almond Milk', image: '/images/milk3.png' },
-    { name: 'Easywell Coconut Milk', image: '/images/milk4.png' },
-    { name: 'Easywell Oat Milk', image: '/images/milk5.png' },
-    { name: 'Easywell Soy Milk', image: '/images/milk6.png' }
+    { name: 'Easywell Whole Milk', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Skim Milk', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Almond Milk', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Coconut Milk', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+
   ],
   Confectionaries: [
-    { name: 'Easywell Chocolate Bar', image: '/images/confect1.png' },
-    { name: 'Easywell Cookies', image: '/images/confect2.png' },
-    { name: 'Easywell Candy', image: '/images/confect3.png' },
-    { name: 'Easywell Pastries', image: '/images/confect4.png' },
-    { name: 'Easywell Gummies', image: '/images/confect5.png' },
-    { name: 'Easywell Marshmallows', image: '/images/confect6.png' }
+    { name: 'Easywell Chocolate Bar', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Cookies', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Candy', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell Pastries', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+
   ]
 };
 

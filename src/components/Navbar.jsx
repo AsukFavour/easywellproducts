@@ -8,7 +8,15 @@ const Navbar = () => {
   return (
     <nav className="bg-COSgreen bg-opacity-80 p-4 flex items-center justify-between relative ">
       {/* Logo */}
-      <div className="text-white text-2xl font-bold"><a href="/">Easywell</a></div>
+      <div className="flex items-center">
+        <a href="/" className="flex items-center">
+          <img 
+            src="https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741213903/easywell_logo_zzegrt.png" 
+            alt="logo" 
+            className="w-28 h-auto" // Adjusted size (width: 7rem)
+          />
+        </a>
+      </div>
 
       {/* Menu Button with Pill Shape */}
       <button 
@@ -30,7 +38,7 @@ const Navbar = () => {
               { name: "Products", path: "/products" },
               { name: "Branches", path: "/branches" },
               { name: "About", path: "/about" },
-              { name: "Career", path: "/career" },
+              { name: "Bulk Order", path: "/bulk-order" },
               { name: "Contact Us", path: "/contact" }
             ].map((item) => (
               <li key={item.name} className="py-2">

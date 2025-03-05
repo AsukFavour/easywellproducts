@@ -15,36 +15,36 @@ const products = {
   ],
 
   Oats: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479146/Easywell/tdgc8b2sqkalbwoyvwg8.png' },
-    { name: 'Easywell ', image: '/images/spaghettini.png' },
-    { name: 'Easywell', image: '/images/twist.png' },
-    { name: 'Easywell', image: '/images/macaroni.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
 
   BabyFoods: [
-    { name: 'Easywell Oil', image: '/images/spaghetti.png' },
-    { name: 'Easywell ', image: '/images/spaghettini.png' },
-    { name: 'Easywell', image: '/images/twist.png' },
-    { name: 'Easywell', image: '/images/macaroni.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
   Milk: [
-    { name: 'Easywell Oil', image: '/images/spaghetti.png' },
-    { name: 'Easywell ', image: '/images/spaghettini.png' },
-    { name: 'Easywell', image: '/images/twist.png' },
-    { name: 'Easywell', image: '/images/macaroni.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
   Sugar: [
-    { name: 'Easywell Oil', image: '/images/spaghetti.png' },
-    { name: 'Easywell ', image: '/images/spaghettini.png' },
-    { name: 'Easywell', image: '/images/twist.png' },
-    { name: 'Easywell', image: '/images/macaroni.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
 
   TomatoPaste: [
-    { name: 'Easywell Oil', image: '/images/spaghetti.png' },
-    { name: 'Easywell ', image: '/images/spaghettini.png' },
-    { name: 'Easywell', image: '/images/twist.png' },
-    { name: 'Easywell', image: '/images/macaroni.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
   ],
   // Add products for other categories here
 };

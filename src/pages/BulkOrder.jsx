@@ -10,21 +10,21 @@ const bulkOrders = [
     description:
       "We supply high-quality edible oils in bulk tanker loads, ensuring a seamless and efficient supply chain for large-scale businesses.",
     image:
-      "https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479140/Easywell/tanker.png",
+      "https://res.cloudinary.com/dqfzpmiiw/image/upload/t_Banner 16:9/v1741213905/IMG-20250305-WA0007_dxzxzp.jpg",
   },
   {
     title: "Totes Supply",
     description:
       "Our tote supply option provides a flexible bulk packaging solution, ideal for medium-scale businesses requiring efficient oil storage.",
     image:
-      "https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479144/Easywell/totes.png",
+      "https://res.cloudinary.com/dqfzpmiiw/image/upload/t_Banner 16:9/v1741213903/IMG-20250305-WA0005_ejfrbr.jpg",
   },
   {
     title: "16L - JLB",
     description:
       "Perfect for businesses needing manageable bulk quantities, our 16L - JLB packaging offers convenience and quality in every container.",
     image:
-      "https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479146/Easywell/jlb.png",
+      "https://res.cloudinary.com/dqfzpmiiw/image/upload/t_Banner 16:9/v1741213903/IMG-20250305-WA0012_mcy56r.jpg",
   },
 ];
 

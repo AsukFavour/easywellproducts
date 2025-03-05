@@ -32,11 +32,10 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-2">Links</h3>
               <ul className="space-y-1">
                 <li><a href="/" className="text-sm hover:text-COSgreen">Home</a></li>
+                <li><a href="/bulk-order" className="text-sm hover:text-COSgreen">Bulk Orders</a></li>
                 <li><a href="/family-of-brand" className="text-sm hover:text-COSgreen">Family of Brand</a></li>
                 <li><a href="/contact" className="text-sm hover:text-COSgreen">Contact Us</a></li>
-                <li><a href="pulses" className="text-sm hover:text-COSgreen">Pulses</a></li>
                 <li><a href="/career" className="text-sm hover:text-COSgreen">Careers</a></li>
-                <li><a href="branches" className="text-sm hover:text-COSgreen">Branches</a></li>
                 <li><a href="/community-support" className="text-sm hover:text-COSgreen">Community Support</a></li>
               </ul>
             </div>
