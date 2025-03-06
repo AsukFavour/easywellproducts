@@ -15,36 +15,36 @@ const products = {
   ],
 
   Oats: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' }
   ],
 
   BabyFoods: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' }
   ],
   Milk: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' }
   ],
   Sugar: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' }
   ],
 
   TomatoPaste: [
-    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' },
-    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741217346/Item_coming_soon_pgyqe1.png' }
+    { name: 'Easywell Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell ', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
+    { name: 'Easywell', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' }
   ],
   // Add products for other categories here
 };
