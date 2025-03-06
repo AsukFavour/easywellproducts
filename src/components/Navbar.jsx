@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-COSgreen bg-opacity-80 p-4 flex items-center justify-between relative ">
+    <nav className="bg-COSgreen bg-opacity-80 border-b-4 border-b-green-200 p-4 pb-2.5 flex items-center justify-between relative ">
       {/* Logo */}
       <div className="flex items-center">
         <a href="/" className="flex items-center">
@@ -29,7 +29,7 @@ const Navbar = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute top-full right-4 bg-white text-gray-900 shadow-md rounded-lg p-4 w-48 z-20">
+        <div className="absolute top-full right-4 bg-white text-gray-900  shadow-md rounded-lg p-4 w-48 z-20">
           <ul>
             {[
               { name: "Home", path: "/" },
