@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 const Footer = () => {
     return (
       <footer className="bg-black text-white py-10">
@@ -31,12 +34,12 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2">Links</h3>
               <ul className="space-y-1">
-                <li><a href="/" className="text-sm hover:text-COSgreen">Home</a></li>
-                <li><a href="/bulk-order" className="text-sm hover:text-COSgreen">Bulk Orders</a></li>
-                <li><a href="/family-of-brand" className="text-sm hover:text-COSgreen">Family of Brand</a></li>
-                <li><a href="/contact" className="text-sm hover:text-COSgreen">Contact Us</a></li>
-                <li><a href="/career" className="text-sm hover:text-COSgreen">Careers</a></li>
-                <li><a href="/community-support" className="text-sm hover:text-COSgreen">Community Support</a></li>
+                <li><Link  to={"/"} className="text-sm hover:text-COSgreen">Home </Link></li>
+                <li><Link  to={"/bulk-order"} className="text-sm hover:text-COSgreen">Bulk Orders</Link></li>
+                <li><Link  to={"/family-of-brands"} className="text-sm hover:text-COSgreen">Family of Brand</Link></li>
+                <li><Link  to={"/contact"} className="text-sm hover:text-COSgreen">Contact Us</Link></li>
+                <li><Link  to={"/career"} className="text-sm hover:text-COSgreen">Careers</Link></li>
+                <li><Link  to={"/community-support"} className="text-sm hover:text-COSgreen">Community Support</Link></li>
               </ul>
             </div>
           </div>
