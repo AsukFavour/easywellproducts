@@ -33,6 +33,7 @@ function Index() {
     autoPlay 
     loop 
     muted 
+    controls
     playsInline
     className="rounded-lg shadow-lg w-full h-auto"
   />
