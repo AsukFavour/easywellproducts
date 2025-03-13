@@ -52,6 +52,15 @@ const Pulses = () => {
   return (
     <>
     <Navbar/>
+    {/* Hero Section with Dark Overlay */}
+    <div className="relative h-72 flex items-center justify-center text-white ">
+        
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479098/Easywell/kn9pthuaddegsx3n9aux.jpg)` }} 
+        ></div>
+        <h1 className="relative text-4xl font-bold z-10">Pulses</h1>
+      </div>
     <section className="py-16 px-6 bg-gray-100">
       {/* Introduction Section */}
       <motion.div
