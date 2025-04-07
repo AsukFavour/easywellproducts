@@ -25,10 +25,7 @@ function App() {
            <Route path="/products" element={<Products />} />
            <Route path="/bulk-order" element={<BulkOrder />} />
            <Route path="/community-support" element={<CommunitySupport />} />
-          <Route path="/pulses" element={<Pulses />} />
-        
-      
-         
+          <Route path="/pulses" element={<Pulses />} /> 
       </Routes>
     </Router>
   );

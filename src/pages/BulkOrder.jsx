@@ -10,7 +10,7 @@ const bulkOrders = [
     description:
       "We supply high-quality edible oils in bulk tanker loads, ensuring a seamless and efficient supply chain for large-scale businesses.",
     image:
-      "https://res.cloudinary.com/dqfzpmiiw/image/upload/t_Banner 16:9/v1741213905/IMG-20250305-WA0007_dxzxzp.jpg",
+      "https://res.cloudinary.com/dqfzpmiiw/image/upload/t_Banner 16:9/v1744028510/easywell_truck_twgrla.jpg",
   },
   {
     title: "Totes Supply",
