@@ -81,7 +81,7 @@ const AboutUs = () => {
           whileInView={{ opacity: 1, x: 0 }} 
           transition={{ duration: 1 }}>
            <img
-              src="https://res.cloudinary.com/dqfzpmiiw/image/upload/c_crop,ar_4:3/v1741213905/IMG-20250305-WA0007_dxzxzp.jpg"
+              src="https://res.cloudinary.com/dqfzpmiiw/image/upload/v1744028510/easywell_truck_twgrla.jpg"
               width={500}
               height={300}
               alt="Our Brand"
