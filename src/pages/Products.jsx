@@ -11,10 +11,11 @@ const products = {
   Oils: [
     { name: 'Easywell Sunflower Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479146/Easywell/tdgc8b2sqkalbwoyvwg8.png' },
     { name: 'Easywell Olive Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479144/Easywell/xbcpx3tyxbnyt5rwqonu.png' },
-    { name: 'Easywell Canola Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479140/Easywell/hak6p1ahdpygssw5p1fh.png' },
-    { name: 'Easywell Corn Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479139/Easywell/i13zbloadeybu6wtivha.png' },
+    { name: 'Easywell Canola Oil 5ltrs', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1744139219/20250406_151446_m1gzsm.png' },
+    { name: 'Easywell Corn Oil 5ltrs', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1744139217/20250406_164518_zj4rvc.png' },
     { name: 'Easywell Soybean Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479139/Easywell/zliacr8bgcrp0bydb9po.png' },
-    { name: 'Easywell Palm Oil', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1740479135/Easywell/fg2gpvwlz07rif7kbm1u.png' }
+    { name: 'Easywell vegetable Oil 5ltrs', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1744139218/20250406_161230_j67i2l.png' },
+    { name: 'Easywell Sunflower Oil 5ltrs', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1744139219/20250406_162149_xvfv3b.png' }
   ],
   Oats: [
     { name: 'Easywell Instant Oats', image: 'https://res.cloudinary.com/dqfzpmiiw/image/upload/v1741246608/Item_coming_soon1_whhuon.png' },
@@ -108,9 +109,9 @@ function Products() {
           >
             <img src={product.image} alt={product.name} className="w-full h-40 object-contain" />
             <h3 className="mt-4 text-lg font-semibold">{product.name}</h3>
-            <button className="mt-4 bg-yellow-400 text-black px-6 py-2 rounded-full shadow-md hover:bg-yellow-500 transition">
+            {/* <button className="mt-4 bg-yellow-400 text-black px-6 py-2 rounded-full shadow-md hover:bg-yellow-500 transition">
               View Product
-            </button>
+            </button> */}
           </motion.div>
         ))}
       </motion.div>
